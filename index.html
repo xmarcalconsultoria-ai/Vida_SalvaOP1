@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Vida Salva Treinamentos | Sistema de Gestão</title>
+    <meta name="description" content="Capacitação, prevenção e segurança para proteger vidas.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpeg" href="assets/images/Logo.jpeg">
+    <link rel="shortcut icon" type="image/jpeg" href="assets/images/Logo.jpeg">
+
+    <!-- Fonts & Font Awesome -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="system-theme">
+
+    <!-- FAIXAS CURVAS DECORATIVAS AO FUNDO -->
+    <div class="template-waves-bg">
+        <div class="wave-top-left"></div>
+        <div class="wave-bottom-right"></div>
+    </div>
+
+    <div class="system-layout">
+
+        <!-- MENU LATERAL (SIDEBAR FIXA COM LOGO OFICIAL) -->
+        <aside class="system-sidebar" id="systemSidebar">
+            <div class="sidebar-header">
+                <div class="brand-logo-container">
+                    <img src="assets/images/Logo.jpeg" alt="Logo Vida Salva Treinamentos" class="brand-logo-img">
+                </div>
+                <div class="brand-info">
+                    <span class="brand-name">VIDA SALVA</span>
+                    <span class="brand-sub">TREINAMENTOS</span>
+                </div>
+            </div>
+
+            <div class="sidebar-user">
+                <div class="user-avatar"><i class="fa-solid fa-heart-pulse"></i></div>
+                <div class="user-meta">
+                    <span class="user-role"></span>
+                    <span class="user-status">Cuidar de vidas é o nosso compromisso.</span>
+                </div>
+            </div>
+
+            <nav class="sidebar-nav">
+                <span class="nav-category">Navegação Principal</span>
+                <a href="#inicio" class="sidebar-link active"><i class="fa-solid fa-house-laptop"></i> <span>Início</span></a>
+                <a href="#apresentacao" class="sidebar-link"><i class="fa-solid fa-building-user"></i> <span>Sobre a Instituição</span></a>
+                
+                <span class="nav-category">Treinamentos e Projetos</span>
+                <a href="#topico-1" class="sidebar-link"><i class="fa-solid fa-user-nurse"></i> <span>1. Primeiros Socorros</span></a>
+                <a href="#topico-2" class="sidebar-link"><i class="fa-solid fa-heart-circle-bolt"></i> <span>2. SBV / BLS e DEA</span></a>
+                <a href="#topico-3" class="sidebar-link"><i class="fa-solid fa-fire"></i> <span>3. Combate a Incêndio</span></a>
+                <a href="#topico-4" class="sidebar-link"><i class="fa-solid fa-people-group"></i> <span>4. Equipes de Brigada</span></a>
+                <a href="#topico-5" class="sidebar-link"><i class="fa-solid fa-person-running"></i> <span>5. Plano de Abandono</span></a>
+                <a href="#topico-6" class="sidebar-link"><i class="fa-solid fa-school-circle-check"></i> <span>6. Projeto Escola Segura</span></a>
+
+                <span class="nav-category">Produtos e Soluções</span>
+                <a href="#topico-7" class="sidebar-link"><i class="fa-solid fa-kit-medical"></i> <span>7. Estação Vida Salva</span></a>
+            </nav>
+
+            <div class="sidebar-footer">
+                <a href="https://wa.me/5527999693393?text=Olá!%20Gostaria%20de%20mais%20informações." target="_blank" class="sidebar-support-btn">
+                    <i class="fa-brands fa-whatsapp"></i> Falar no WhatsApp
+                </a>
+            </div>
+        </aside>
+
+        <!-- ÁREA PRINCIPAL DO SISTEMA -->
+        <main class="system-main-content">
+
+            <!-- HEADER SUPERIOR HARMONIZADO COM O FUNDO AZUL -->
+            <header class="top-system-bar">
+                <div class="system-breadcrumb">
+                    <i class="fa-solid fa-layer-group text-green"></i> <span>SERVIÇOS E SOLUÇÕES</span> <i class="fa-solid fa-chevron-right separator"></i> <span id="currentSectionTitle">Início</span>
+                </div>
+                <div class="top-system-actions">
+                    <span class="system-date"><i class="fa-regular fa-calendar-days"></i> Vitória / Cariacica - ES</span>
+                    <button class="mobile-menu-toggle" id="mobileToggleBtn"><i class="fa-solid fa-bars"></i></button>
+                </div>
+            </header>
+
+            <div class="content-viewport">
+
+                <!-- 1. INÍCIO COM ACCORDION SLIDER -->
+                <section id="inicio" class="sys-section stripe-green">
+                    <div class="hero-top-wrapper">
+                        <div class="sys-badge-container">
+                            <span class="sys-badge"><i class="fa-solid fa-shield-halved"></i> VIDA SALVA TREINAMENTOS</span>
+                            <h1 class="sys-main-title">SERVIÇOS E SOLUÇÕES</h1>
+                            <p class="hero-slogan">Cuidar de vidas é o nosso compromisso.</p>
+                        </div>
+                     
+                    </div>
+
+                    <!-- BANNER ACCORDION COM TRANSIÇÃO DINÂMICA -->
+                    <div class="accordion-container">
+                        <div class="accordion-card active">
+                            <div class="card-bg-overlay" style="background-image: url('assets/images/socorros.jpeg');"></div>
+                            <div class="card-content">
+                                <div class="card-header-title">
+                                    <i class="fa-solid fa-heart-pulse"></i>
+                                    <span>Compromisso com a Vida</span>
+                                </div>
+                                <div class="card-divider"></div>
+                                <div class="card-body-text">
+                                    <p>Capacitação, prevenção e segurança para proteger vidas em escolas, empresas e instituições.</p>
+                                    <a href="#apresentacao" class="btn-card-action">Conhecer Soluções</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-card">
+                            <div class="card-bg-overlay" style="background-image: url('assets/images/brigada.jpeg');"></div>
+                            <div class="card-content">
+                                <div class="card-header-title">
+                                    <i class="fa-solid fa-fire-extinguisher"></i>
+                                    <span>Brigada & Incêndio</span>
+                                </div>
+                                <div class="card-divider"></div>
+                                <div class="card-body-text">
+                                    <p>Capacitação técnica corporativa para contenção rápida e evacuamento de área seguro.</p>
+                                    <a href="#topico-3" class="btn-card-action">Ver Treinamento</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-card">
+                            <div class="card-bg-overlay" style="background-image: url('assets/images/socorros.avif');"></div>
+                            <div class="card-content">
+                                <div class="card-header-title">
+                                    <i class="fa-solid fa-user-nurse"></i>
+                                    <span>Lei Lucas & Primeiros Socorros</span>
+                                </div>
+                                <div class="card-divider"></div>
+                                <div class="card-body-text">
+                                    <p>Treinamentos teóricos e práticos obrigatórios para instituições de ensino e empresas.</p>
+                                    <a href="#topico-1" class="btn-card-action">Lei Lucas</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-card">
+                            <div class="card-bg-overlay" style="background-image: url('assets/images/normas.jpeg');"></div>
+                            <div class="card-content">
+                                <div class="card-header-title">
+                                    <i class="fa-solid fa-kit-medical"></i>
+                                    <span>Estação de Emergência</span>
+                                </div>
+                                <div class="card-divider"></div>
+                                <div class="card-body-text">
+                                    <p>Equipamentos completos de resgate inicial com gestão e inspeções periódicas.</p>
+                                    <a href="#topico-7" class="btn-card-action">Ver Estação</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 2. APRESENTAÇÃO -->
+                <section id="apresentacao" class="sys-section stripe-orange">
+                    <div class="clean-card">
+                        <span class="sys-subtitle">VIDA SALVA TREINAMENTOS</span>
+                        <h2>Cuidar de vidas é o nosso compromisso.</h2>
+                        <p class="clean-lead">
+                            A Vida Salva Treinamentos oferece capacitação profissional, projetos de prevenção e soluções para preparação e resposta a situações de emergência, atendendo escolas, empresas e instituições.
+                        </p>
+                    </div>
+                </section>
+
+                <div class="section-divider-title">
+                    <h2>TREINAMENTOS E PROJETOS</h2>
+                </div>
+
+                <!-- 1. Primeiros Socorros – Lei Lucas -->
+                <section id="topico-1" class="sys-section stripe-green">
+                    <div class="clean-card">
+                        <div class="card-header-line">
+                            <span class="badge-index">1</span>
+                            <i class="fa-solid fa-user-nurse text-green"></i>
+                        </div>
+                        <h3>1. Primeiros Socorros – Lei Lucas</h3>
+                        <p>
+                            Capacitação em primeiros socorros com ênfase na Lei Lucas (Lei Federal nº 13.722/2018), direcionada a profissionais da educação, escolas, instituições e empresas, com conteúdo teórico e atividades práticas.
+                        </p>
+                        <a href="https://wa.me/5527999693393?text=Quero%20orçamento%20para%201.%20Primeiros%20Socorros%20–%20Lei%20Lucas" target="_blank" class="btn-clean-action">Solicitar Orçamento</a>
+                    </div>
+                </section>
+
+                <!-- 2. Suporte Básico de Vida (SBV/BLS) e DEA -->
+                <section id="topico-2" class="sys-section stripe-orange">
+                    <div class="clean-card">
+                        <div class="card-header-line">
+                            <span class="badge-index">2</span>
+                            <i class="fa-solid fa-heart-circle-bolt text-orange"></i>
+                        </div>
+                        <h3>2. Suporte Básico de Vida (SBV/BLS) e DEA</h3>
+                        <p>
+                            Treinamentos teóricos e práticos em suporte básico de vida, reanimação cardiopulmonar (RCP), atendimento à parada cardiorrespiratória e utilização do Desfibrilador Externo Automático (DEA).
+                        </p>
+                        <a href="https://wa.me/5527999693393?text=Quero%20orçamento%20para%202.%20Suporte%20Básico%20de%20Vida%20(SBV/BLS)%20e%20DEA" target="_blank" class="btn-clean-action">Solicitar Orçamento</a>
+                    </div>
+                </section>
+
+                <!-- 3. Combate a Incêndio -->
+                <section id="topico-3" class="sys-section stripe-green">
+                    <div class="clean-card">
+                        <div class="card-header-line">
+                            <span class="badge-index">3</span>
+                            <i class="fa-solid fa-fire text-red"></i>
+                        </div>
+                        <h3>3. Combate a Incêndio</h3>
+                        <p>
+                            Treinamentos teóricos e práticos de prevenção e combate a princípios de incêndio, utilização de extintores e procedimentos de segurança em situações de emergência.
+                        </p>
+                        <a href="https://wa.me/5527999693393?text=Quero%20orçamento%20para%203.%20Combate%20a%20Incêndio" target="_blank" class="btn-clean-action">Solicitar Orçamento</a>
+                    </div>
+                </section>
+
+                <!-- 4. Formação e Reciclagem de Equipes de Brigada de Incêndio -->
+                <section id="topico-4" class="sys-section stripe-orange">
+                    <div class="clean-card">
+                        <div class="card-header-line">
+                            <span class="badge-index">4</span>
+                            <i class="fa-solid fa-people-group text-blue"></i>
+                        </div>
+                        <h3>4. Formação e Reciclagem de Equipes de Brigada de Incêndio</h3>
+                        <p>
+                            Capacitação e atualização de equipes de brigadistas para atuação em situações de emergência, incluindo prevenção e combate a incêndios, primeiros socorros e procedimentos de segurança.
+                        </p>
+                        <a href="https://wa.me/5527999693393?text=Quero%20orçamento%20para%204.%20Formação%20e%20Reciclagem%20de%20Equipes%20de%20Brigada%20de%20Incêndio" target="_blank" class="btn-clean-action">Solicitar Orçamento</a>
+                    </div>
+                </section>
+
+                <!-- 5. Plano de Abandono de Área e Evacuação de Emergência -->
+                <section id="topico-5" class="sys-section stripe-green">
+                    <div class="clean-card">
+                        <div class="card-header-line">
+                            <span class="badge-index">5</span>
+                            <i class="fa-solid fa-person-running text-purple"></i>
+                        </div>
+                        <h3>5. Plano de Abandono de Área e Evacuação de Emergência</h3>
+                        <p>
+                            Elaboração de Planos de Abandono em Emergências (PAE), desenvolvimento de procedimentos de evacuação, preparação de equipes e organização da documentação necessária para orientar a saída segura de pessoas em situações de emergência.
+                        </p>
+                        <a href="https://wa.me/5527999693393?text=Quero%20orçamento%20para%205.%20Plano%20de%20Abandono%20de%20Área%20e%20Evacuação%20de%20Emergência" target="_blank" class="btn-clean-action">Solicitar Orçamento</a>
+                    </div>
+                </section>
+
+                <!-- 6. Projeto Escola Segura -->
+                <section id="topico-6" class="sys-section stripe-orange">
+                    <div class="clean-card featured-clean-card">
+                        <div class="card-header-line">
+                            <span class="badge-index text-green">6</span>
+                            <i class="fa-solid fa-school-circle-check text-green"></i>
+                        </div>
+                        <h3>6. Projeto Escola Segura</h3>
+                        <p>
+                            Solução integrada para preparação de instituições de ensino, contemplando as etapas necessárias para adequação ao Projeto Escola Segura e obtenção do respectivo selo.
+                        </p>
+                        
+                        <div class="clean-checklist-box">
+                            <strong>O projeto contempla:</strong>
+                            <ul>
+                                <li><i class="fa-solid fa-check"></i> Capacitação em primeiros socorros;</li>
+                                <li><i class="fa-solid fa-check"></i> Treinamento de prevenção e combate a incêndio;</li>
+                                <li><i class="fa-solid fa-check"></i> Preparação das equipes escolares;</li>
+                                <li><i class="fa-solid fa-check"></i> Elaboração do Plano de Abandono em Emergência (PAE);</li>
+                                <li><i class="fa-solid fa-check"></i> Planejamento e realização de simulados de emergência;</li>
+                                <li><i class="fa-solid fa-check"></i> Orientação e organização da documentação necessária para o processo de certificação.</li>
+                            </ul>
+                        </div>
+                        
+                        <a href="https://wa.me/5527999693393?text=Quero%20adequar%20minha%20escola%20ao%206.%20Projeto%20Escola%20Segura" target="_blank" class="btn-clean-action green-action">Adequar Minha Escola</a>
+                    </div>
+                </section>
+
+                <div class="section-divider-title">
+                    <h2>PRODUTOS E SOLUÇÕES</h2>
+                </div>
+
+                <!-- 7. Estação Vida Salva – Estação de Emergência -->
+                <section id="topico-7" class="sys-section stripe-green">
+                    <div class="clean-card station-clean-card">
+                        <div class="card-header-line">
+                            <span class="badge-index text-orange">7</span>
+                            <i class="fa-solid fa-kit-medical text-orange"></i>
+                        </div>
+                        <h3>7. Estação Vida Salva – Estação de Emergência</h3>
+                        <p class="clean-lead-text">
+                            Uma solução desenvolvida pela Vida Salva Treinamentos para disponibilização de equipamentos e materiais destinados ao atendimento inicial em situações de emergência.
+                        </p>
+
+                        <p class="clean-desc-text">
+                            A estação pode contemplar DEA, prancha de imobilização, colares cervicais, talas, kit de primeiros socorros e outros equipamentos essenciais.
+                        </p>
+
+                        <div class="clean-inspection-box">
+                            <i class="fa-solid fa-clipboard-check text-green"></i>
+                            <p>
+                                O serviço inclui acompanhamento e inspeções periódicas para verificação das condições dos equipamentos, validade dos materiais e necessidade de reposição.
+                            </p>
+                        </div>
+
+                        <a href="https://wa.me/5527999693393?text=Quero%20solicitar%20a%207.%20Estação%20Vida%20Salva%20–%20Estação%20de%20Emergência" target="_blank" class="btn-clean-action orange-action mt-20">Solicitar Estação de Emergência</a>
+                    </div>
+                </section>
+
+                <footer class="sys-footer">
+                    <div class="footer-brand-box">
+                        <h4>VIDA SALVA TREINAMENTOS</h4>
+                        <p class="footer-slogan">Cuidar de vidas é o nosso compromisso.</p>
+                        <p class="footer-sub">Capacitação, prevenção e segurança para proteger vidas.</p>
+                    </div>
+                    <div class="footer-copy">
+                        © 2026 Vida Salva Treinamentos. Todos os direitos reservados.
+                    </div>
+                </footer>
+
+            </div>
+        </main>
+    </div>
+
+    <a href="https://wa.me/5527999693393?text=Olá!%20Gostaria%20de%20um%20orçamento." target="_blank" class="whatsapp-float-btn" aria-label="WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
